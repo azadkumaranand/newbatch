@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+</head>
+<style>
+    .table1, .table2{
+       border: 1px solid black; 
+       border-collapse: collapse;
+    }
+    tr, td{
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <h4>simple table</h4>
+    <table class="table1">
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Marks</td>
+        </tr>
+        <tr>
+            <td>Azad</td>
+            <td>35</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>Suman</td>
+            <td>32</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>Suraj</td>
+            <td>30</td>
+            <td>95</td>
+        </tr>
+    </table>
+
+    
+    <!-- colspan and rospan 
+    colspan=2 means
+    -->
+    <h4>Table with colspan and rowspan</h4>
+    <table class="table2">
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red Eyes</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>Weight</td>  
+        </tr>
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>43%</td>
+        </tr>
+        <tr>
+            <td>Femalse</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>40%</td>
+        </tr>
+    </table>
+
+    <h5>Anchor Tag</h5>
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+</body>
+</html>
